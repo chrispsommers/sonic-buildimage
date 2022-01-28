@@ -45,6 +45,10 @@ RUN echo "deb [arch=arm64] http://deb.debian.org/debian stretch main contrib non
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
+# For USDT Probes
+        systemtap-sdt-dev \
+# For object file manipulation/inspection
+        binutils \
         apt-utils \
         default-jre-headless \
         openssh-server \
