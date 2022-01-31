@@ -7,7 +7,8 @@
 [submodule "sonic-sairedis"]
 	path = src/sonic-sairedis
 	url = git@github.com:chrispsommers/sonic-sairedis.git
-	branch = saivisor[submodule "sonic-swss"]
+	branch = saivisor
+[submodule "sonic-swss"]
 	path = src/sonic-swss
 	url = https://github.com/Azure/sonic-swss
 [submodule "src/p4c-bm/p4c-bm"]
