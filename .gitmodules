@@ -6,7 +6,8 @@
 	url = https://github.com/Azure/sonic-linux-kernel
 [submodule "sonic-sairedis"]
 	path = src/sonic-sairedis
-	url = https://github.com/Azure/sonic-sairedis
+	url = git@github.com:chrispsommers/sonic-sairedis.git
+	branch = saivisor-202111
 [submodule "sonic-swss"]
 	path = src/sonic-swss
 	url = https://github.com/Azure/sonic-swss
