@@ -13,7 +13,7 @@ SSHPASS = sshpass
 STRACE = strace
 BINUTILS = binutils # readelf, nm, etc.
 #LINUX_HDRS = linux-headers-5.10.0-10-amd64 linux-headers-5.10.0-10-common linux-headers-amd64
-BPF_TOOLS = bpfcc-tools bpftrace bpftool
+BPF_TOOLS = bpfcc-tools/buster-backports bpftrace bpftool
 $(DOCKER_BASE_BUSTER)_DBG_IMAGE_PACKAGES += $(GDB) $(GDBSERVER) $(VIM) $(OPENSSH) $(SSHPASS) $(STRACE) \
 	$(BINUTILS) $(LINUX_HDRS) $(BPF_TOOLS)
 
